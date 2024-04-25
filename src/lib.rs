@@ -58,6 +58,7 @@ impl Config {
                 // 如果没有更多的命令行参数，则默认为 false  
                 None => false,  
             },  
+            
         };
 /*         let ignore_case = match env::var("IGNORE_CASE").ok() {
             Some(0) | None => match args.next() {
